@@ -66,3 +66,14 @@ p {
     color: #c6c6c6;
     font-size: 64px;
 }
+
+.item { 
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.item-icon { 
+    display: flex;
+    gap: 20px; 
+
+}
