@@ -1,0 +1,23 @@
+body { 
+    background: #f7f7f7;
+}
+
+.title { 
+    text-align: center;
+
+}
+
+
+.menu { 
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+    justify-content: center;
+}
+
+.menu li { 
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
