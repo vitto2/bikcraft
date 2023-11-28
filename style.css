@@ -65,6 +65,8 @@ p {
 .title-2 { 
     color: #c6c6c6;
     font-size: 64px;
+    text-align: end;
+    margin-right: 20px;
 }
 
 .item { 
@@ -76,4 +78,16 @@ p {
     display: flex;
     gap: 20px; 
 
+}
+
+
+.section-texts {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: white;
+    padding: 30px;
+}
+
+.footer-text  { 
+    text-align: center;
 }
